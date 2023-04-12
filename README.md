@@ -25,11 +25,11 @@ The Poisson distribution is the discrete probability distribution of the number 
 ![image](https://user-images.githubusercontent.com/104613195/166251988-d0c53205-6080-4f7b-ae4c-398178586637.png)
 
 # Experiment :
+![prob exp](https://user-images.githubusercontent.com/120232371/230285025-cc4d36bc-84b7-40c5-93cc-b439a6138fe9.jpg)
 
-![image](https://user-images.githubusercontent.com/103921593/230282876-f4a5afbf-cac1-4648-a1b0-c78840638a8e.png)
 
 # Program :
-```python
+```import numpy as np
 import math
 import scipy.stats
 L=[int(i) for i in input().split()]
@@ -63,17 +63,12 @@ print("Table value of Chi square at 1 level is %4.2f"%table_chi2)
 if cal_chi2_sq<table_chi2:
     print("The given data can be fitted in poisson distribution at 1% LOS ")
 else:
-     print(("The given data cannot be fitted in poisson distribution at 1% LOS "))`
- ```
-
- 
+     print(("The given data cannot be fitted in poisson distribution at 1% LOS "))
+``` 
 
 # Output : 
+ ![prob2](https://user-images.githubusercontent.com/120232371/230283922-2776ea4b-16f0-4295-8eaa-96f68fc83666.png)
+ ![prob2(2)](https://user-images.githubusercontent.com/120232371/230283610-4fdce918-5727-42fb-ba34-4e8407cfe3b1.png)
 
-![image](https://user-images.githubusercontent.com/118447015/231045234-de7c3e16-119c-4b6b-8140-b39456802b57.png)
-
-
-# Results
-
-The Poisson distribution is fitted for the objects arrived from feeder per minute and the data is tested using Chi-square test. 
- 
+# Result:
+Thus to fit poisson for the arrival of object per minute from the feeder is successfully completed.
