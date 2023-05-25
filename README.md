@@ -67,7 +67,7 @@ else:
 ``` 
 
 # Output : 
- ![prob2](https://user-images.githubusercontent.com/120232371/230283922-2776ea4b-16f0-4295-8eaa-96f68fc83666.png)
+![image](https://github.com/Jayachandran20/Poisson_distribution/assets/118447015/51ada54b-7a60-4c5d-a8eb-a4a908a84823)
 
 # Result:
 Thus to fit poisson for the arrival of object per minute from the feeder is successfully completed.
