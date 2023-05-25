@@ -68,7 +68,6 @@ else:
 
 # Output : 
  ![prob2](https://user-images.githubusercontent.com/120232371/230283922-2776ea4b-16f0-4295-8eaa-96f68fc83666.png)
- ![prob2(2)](https://user-images.githubusercontent.com/120232371/230283610-4fdce918-5727-42fb-ba34-4e8407cfe3b1.png)
 
 # Result:
 Thus to fit poisson for the arrival of object per minute from the feeder is successfully completed.
